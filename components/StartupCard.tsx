@@ -17,7 +17,7 @@ function StartupCard({ post }: any) {
   } = post;
 
   return (
-    <li className="startup-card group col-span-4">
+    <li className="startup-card group col-span-12 md:col-span-6 lg:col-span-4">
       <div className="flex-between mt-5 gap-5">
         <p className="startup_card_date">{formatDate(post._createdAt)}</p>
 
